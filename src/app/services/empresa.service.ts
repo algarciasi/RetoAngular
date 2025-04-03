@@ -9,7 +9,7 @@ import { Empresa } from '../interface/empresa';
 export class EmpresaService {
 
   httpClient = inject(HttpClient);
-  private baseUrl : string = 'https://peticiones.online/api/products';
+  private baseUrl : string = 'http://localhost:8086/empresas/todas';
   insertObservable: any;
 
   constructor() { }
